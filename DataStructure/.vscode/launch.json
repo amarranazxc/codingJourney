@@ -1,0 +1,156 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch right",
+            "request": "launch",
+            "mainClass": "right",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch copyofnode",
+            "request": "launch",
+            "mainClass": "copyofnode",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch wer",
+            "request": "launch",
+            "mainClass": "wer",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch vn",
+            "request": "launch",
+            "mainClass": "vn",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch newxc",
+            "request": "launch",
+            "mainClass": "newxc",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch arry",
+            "request": "launch",
+            "mainClass": "arry",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test10",
+            "request": "launch",
+            "mainClass": "test10",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test9",
+            "request": "launch",
+            "mainClass": "test9",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch recod",
+            "request": "launch",
+            "mainClass": "recod",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test7",
+            "request": "launch",
+            "mainClass": "test7",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "name": "Attach",
+            "port": 9229,
+            "request": "attach",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch amar",
+            "request": "launch",
+            "mainClass": "amar",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "test1",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test3",
+            "request": "launch",
+            "mainClass": "test3",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test4",
+            "request": "launch",
+            "mainClass": "test4",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test5",
+            "request": "launch",
+            "mainClass": "test5",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch tset6",
+            "request": "launch",
+            "mainClass": "tset6",
+            "projectName": "java projects_7612d3b2"
+        },
+        {
+            "type": "java",
+            "name": "Launch zxc",
+            "request": "launch",
+            "mainClass": "zxc",
+            "projectName": "java projects_7612d3b2"
+        }
+    ]
+}
