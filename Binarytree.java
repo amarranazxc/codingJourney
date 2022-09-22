@@ -1,26 +1,63 @@
-class tnode{
+class TLNode {
 	int data;
-	tnode left,right;
-	tnode(int d){
-		this.data=d;
-//root node is very importtant to perform any opertion on tree
+	TLNode left, right;
+
+	TLNode(int d) {
+		data = d;
 	}
 }
-public class Binarytree{
-	public static void preorder(tnode root){
-		if(root==null){
+
+public class Binarytree {
+	static void preorder(TLNode r) {
+		if (r == null)
 			return;
-		}
-		System.out.print(root.data+" ");
-		preorder(root.left);//here this using recursion
-		preorder(root.right);
+
+		System.out.print(r.data + " ");
+
+		preorder(r.left);
+		preorder(r.right);
+
 	}
+
+	static void inorder(TLNode r) {
+		if (r == null)
+			return;
+
+		inorder(r.left);
+		System.out.print(r.data + " ");
+		inorder(r.right);
+
+	}
+
+	static void postorder(TLNode r) {
+		if (r == null)
+			return;
+
+		postorder(r.left);
+		postorder(r.right);
+		System.out.print(r.data + " ");
+
+	}
+
 	public static void main(String[] args) {
-		tnode root=new tnode(3);
-		root.left=new tnode(5);
-		root.right=new tnode(7);
-		root.left.left=new tnode(5);
+		TLNode root = new TLNode(1);
+
+		root.left = new TLNode(2);
+		root.right = new TLNode(3);
+
+		root.left.left = new TLNode(4);
+		root.left.right = new TLNode(5);
+
+		root.right.left = new TLNode(6);
+		root.right.right = new TLNode(7);
 		preorder(root);
+		System.out.println();
+
+		inorder(root);
+		System.out.println();
+
+		postorder(root);
+		System.out.println();
 
 	}
 }
