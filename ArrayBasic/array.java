@@ -48,4 +48,7 @@ public class array{
         }
 
     }
+    public static int length() {
+        return 0;
+    }
 }
