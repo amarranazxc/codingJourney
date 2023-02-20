@@ -37,7 +37,7 @@ public class LinkedList {
             return;
         }
         node current = head;
-        while (null != current.next) {sdf
+        while (null != current.next) {
             current = current.next;
         }
         current.next = fgh;
