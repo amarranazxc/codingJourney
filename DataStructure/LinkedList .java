@@ -1,7 +1,7 @@
 public class LinkedList {
     private node head;
 
-    public static class node {
+    public static class node  {
         private int data;
         private node next;
 
@@ -9,6 +9,7 @@ public class LinkedList {
             this.data = data;
             this.next = null;
         }
+
     }
 
     public void display() {
@@ -24,9 +25,9 @@ public class LinkedList {
     }
 
     public void insert1(int value) {
-        node asd = new node(value);
-        asd.next = head;
-        head = asd;
+        node newnode = new node(value);
+        newnode.next = head;
+        head = newnode;
     }
 
     public void insertlast(int value) {
@@ -36,7 +37,7 @@ public class LinkedList {
             return;
         }
         node current = head;
-        while (null != current.next) {
+        while (null != current.next) {sdf
             current = current.next;
         }
         current.next = fgh;
