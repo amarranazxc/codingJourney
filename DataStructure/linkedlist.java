@@ -65,15 +65,40 @@ public class linkedlist {
         }
         previous.next=null;
     }
+    public static node merge(node a,node b){
+        node dummay=new node(0);
+        node tail=dummay;
+        while(a!=null&&b!=null){
+            if(a.data<b.data){
+                tail.next=a;
+                a=a.next;
+            }
+            else{
+                tail.next=b;
+                b=b.next;
+            }
+            tail=tail.next;
+        }
+        if(a==null){
+            tail.next=b;
+        }
+        else{
+            tail.next=a;
+        }
+        return dummay.next;
+    }
     public static void main(String[] args) {
-        linkedlist zxc = new linkedlist();
-        zxc.insert1(5789);
-        zxc.insert1(456);
-        zxc.insertlast(2345);
-        zxc.insertlast(23456);
-        zxc.deletfirst();
-        zxc.deletlast();
-        zxc.display();
+        linkedlist l1 = new linkedlist();
+      l1.insert1(234);
+        l1.insertlast(236);
+         linkedlist l2 = new linkedlist();
+        l2.insert1(1);
+        l2.insertlast(6);
+        linkedlist l3 = new linkedlist();
+        l3.head=l3.merge(l1.head, l2.head);
+        l3.display();
+     
+       
 
     }
 }

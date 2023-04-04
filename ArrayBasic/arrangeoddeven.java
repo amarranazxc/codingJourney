@@ -13,8 +13,7 @@ public class arrangeoddeven {
                 a[i] = a[j];
                 a[j] = temp;
                 j--;
-
-            }
+ Scan            }
 
         }
         System.out.print("[");

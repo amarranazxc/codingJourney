@@ -2,7 +2,8 @@ public class linked{
  private static node head;
   public static class node{
     int data;
-    node next;
+    node next1;
+    node next2;
     node(int data){
       this.data=data;
       this.next=null;
